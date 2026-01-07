@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+results/*.png
+results/*.jpg
+kitti_results/*.png
+kitti_results/*.jpg
+kitti_data/*.png
+kitti_data/*.jpg
+models/*.xml
+*.log
+
+# But keep directory structure
+!results/.gitkeep
+!sample_images/.gitkeep
+!models/.gitkeep
+!kitti_results/.gitkeep
+!kitti_data/.gitkeep
+
+# Data directories
+data/
+
+# Results directories
+results/
+kitti_results/
